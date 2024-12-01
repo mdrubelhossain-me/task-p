@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import { Link } from "react-router-dom";
-import p1 from '../../assets/images/bg.jpg'
+import p1 from '../../assets/images/Vector.svg'
 
 const Hero = () => {
   return (
@@ -48,6 +48,10 @@ const Hero = () => {
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12 right-side">
             <div className="right-box">
+
+                <div className="vector">
+                    <img src={p1} alt="" />
+                </div>
               
               <div className="bottom-content">
                 <div className="feedback">
