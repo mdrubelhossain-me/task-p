@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -41,7 +44,10 @@ const Navbar = () => {
                 >
                   <span>Courses</span>
                   <span className="icon">
-                    <i className="bi-solid bi-chevron-down"></i>
+                    <FontAwesomeIcon
+                      icon={faChevronDown}
+                      className="chevron-down"
+                    />
                   </span>
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -67,7 +73,10 @@ const Navbar = () => {
                 >
                   <span>Instructors</span>
                   <span className="icon">
-                    <i className="bi-solid bi-chevron-down"></i>
+                    <FontAwesomeIcon
+                      icon={faChevronDown}
+                      className="chevron-down"
+                    />
                   </span>
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -93,7 +102,10 @@ const Navbar = () => {
                 >
                   <span>Blogs</span>
                   <span className="icon">
-                    <i className="bi-solid bi-chevron-down"></i>
+                    <FontAwesomeIcon
+                      icon={faChevronDown}
+                      className="chevron-down"
+                    />
                   </span>
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">

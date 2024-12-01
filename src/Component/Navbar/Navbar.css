@@ -25,14 +25,16 @@ nav .navbar-brand {
     font-weight: 500;
 }
 
-.navbar .navbar-nav .dropdown .nav-link .icon .bi-chevron-down {
-    padding-left: 6px;
-    font-size: 16px;
+.navbar .navbar-nav .dropdown .nav-link .icon .chevron-down {
+    margin-left: 8px;
+    font-size: 13px;
 }
 
-.navbar .navbar-nav .dropdown .nav-link[aria-expanded="true"] .icon .bi-chevron-down {
-    transition: .5s;
+.navbar .navbar-nav .dropdown .nav-link[aria-expanded="true"] .icon .chevron-down {
+    display: inline-block;
+    transition: .4s;
     transform: rotate(180deg);
+    transform-origin: center;
 }
 
 .navbar-nav .nav-item .bi-bag {
