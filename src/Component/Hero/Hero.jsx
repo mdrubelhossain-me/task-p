@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import { Link } from "react-router-dom";
+import p1 from '../../assets/images/bg.jpg'
 
 const Hero = () => {
   return (
@@ -47,8 +48,21 @@ const Hero = () => {
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12 right-side">
             <div className="right-box">
-              <div className=".right-box bottom-content">
-                <h1>hellooooo</h1>
+              
+              <div className="bottom-content">
+                <div className="feedback">
+                    <div>
+                        <h1>12,000+</h1>
+                    </div>
+                    <div className="line"></div>
+                    <div>
+                        <p>Happy learners rely on us regularly</p>
+                    </div>
+                </div>
+                <div className="wellbeing">
+                        <h6>Find your wellbeing</h6>
+                        <p>By prioritizing self-care and making informed choices, one can enhance their overall quality of life</p>
+                </div>
               </div>
             </div>
           </div>
