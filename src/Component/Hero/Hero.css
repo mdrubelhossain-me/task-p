@@ -5,7 +5,7 @@
     font-family: "Onest", sans-serif;
 }
 
-.left-side {
+.hero-section .left-side {
     margin-top: 100px;
 }
 
@@ -49,7 +49,7 @@
     padding-top: 15px;
 }
 
-.right-box {
+.hero-section .right-box {
     position: relative;
     width: 100%;
     height: 95vh;
@@ -61,7 +61,7 @@
     border-radius: 15px;
 }
 
-.vector {
+.hero-section .vector {
     position: absolute;
     top: 80px;
     left: -30px;
@@ -73,7 +73,7 @@
     z-index: 2;
 }
 
-.vector img {
+.hero-section .vector img {
     width: 60%;
     height: 60%;
     position: absolute;
@@ -84,7 +84,7 @@
 }
 
 
-.right-box .bottom-content {
+.hero-section .right-box .bottom-content {
     position: absolute;
     left: 0;
     right: 0;
@@ -93,7 +93,7 @@
 
 }
 
-.feedback {
+.hero-section .feedback {
     display: flex;
     align-items: center;
     column-gap: 20px;
@@ -105,7 +105,7 @@
     position: relative;
 }
 
-.feedback h1 {
+.hero-section .feedback h1 {
     font-size: 38px;
     font-weight: 700;
     color: #000000;
@@ -113,21 +113,21 @@
     font-family: "Onest", sans-serif;
 }
 
-.feedback .line {
+.hero-section .feedback .line {
     width: 1px;
     height: 45px;
     background-color: #000000;
     opacity: .9;
 }
 
-.feedback p {
+.hero-section .feedback p {
     color: #000000;
     font-size: 24px;
     line-height: 32px;
     font-family: "Onest", sans-serif;
 }
 
-.wellbeing {
+.hero-section .wellbeing {
     display: flex;
     background-color: #e3e3e3;
     padding: 15px 20px;
@@ -137,7 +137,7 @@
     position: relative;
 }
 
-.wellbeing h6 {
+.hero-section .wellbeing h6 {
     width: 35%;
     font-size: 16px;
     line-height: 24px;
@@ -145,7 +145,7 @@
     font-family: "Onest", sans-serif;
 }
 
-.wellbeing p {
+.hero-section .wellbeing p {
     width: 65%;
     font-size: 13px;
     line-height: 24px;
@@ -159,19 +159,19 @@
         height: 630px;
     }
 
-    .right-box {
+    .hero-section .right-box {
         height: 630px;
     }
 
-    .left-side {
+    .hero-section .left-side {
         margin-top: 80px;
     }
 
-    .feedback h1 {
+    .hero-section .feedback h1 {
         font-size: 30px;
     }
 
-    .feedback p {
+    .hero-section .feedback p {
         font-size: 16px;
     }
 
@@ -182,19 +182,19 @@
         height: 630px;
     }
 
-    .right-box {
+    .hero-section .right-box {
         height: 630px;
     }
 
-    .left-side {
+    .hero-section .left-side {
         margin-top: 80px;
     }
 
-    .feedback h1 {
+    .hero-section .feedback h1 {
         font-size: 30px;
     }
 
-    .feedback p {
+    .hero-section .feedback p {
         font-size: 16px;
     }
 
@@ -205,7 +205,7 @@
         height: 1200px;
     }
 
-    .left-side {
+    .hero-section .left-side {
         margin-top: 80px;
     }
 
@@ -213,35 +213,35 @@
         font-size: 32px;
     }
 
-    .right-box {
+    .hero-section .right-box {
         height: 70vh;
         margin-top: 50px;
     }
 
-    .feedback h1 {
+    .hero-section .feedback h1 {
         font-size: 30px;
     }
 
-    .feedback p {
+    .hero-section  .feedback p {
         font-size: 16px;
     }
 
 }
 
 @media (max-width: 480px) {
-    .right-box {
+    .hero-section .right-box {
         height: 65vh;
     }
 
-    .left-side {
+    .hero-section .left-side {
         margin-top: 80px;
     }
 
-    .feedback h1 {
+    .hero-section .feedback h1 {
         font-size: 30px;
     }
 
-    .feedback p {
+    .hero-section .feedback p {
         font-size: 16px;
     }
 
