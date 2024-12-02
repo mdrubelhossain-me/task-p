@@ -295,24 +295,20 @@
     top: -35px !important;
 }
 
+.popular-courses .slick-dots li button,
 .popular-courses .slick-dots li button:before {
-    margin-top: 12px;
+    margin-top: 20px !important;
     border: 2px solid #b3b3b3 !important;
     background-color: transparent !important;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    display: inline-block;
     content: '';
 }
 
 .popular-courses .slick-dots li.slick-active button:before {
     color: white !important;
     background-color: #9a99e0 !important;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    content: '';
 }
 
 
@@ -380,10 +376,6 @@
 @media (max-width: 768px) {
     .popular-courses .sub-title {
         width: 100%;
-    }
-
-    .popular-courses .course-item .course-thumbnail {
-        height: 180px;
     }
 
     .popular-courses .course-item .course-name {
