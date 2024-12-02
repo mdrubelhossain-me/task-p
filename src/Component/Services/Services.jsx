@@ -1,6 +1,6 @@
 import React from "react";
 import "./Services.css";
-import p1 from '../../assets/images/Vector_2.svg'
+import p1 from "../../assets/images/Vector_2.svg";
 import { Link } from "react-router-dom";
 
 const Services = () => {
