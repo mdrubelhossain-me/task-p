@@ -44,8 +44,9 @@ nav .navbar-brand {
 
 
 .navbar-nav .dropdown .dropdown-menu {
+    margin-top: -1px;
     border-radius: 0px;
-    border: none;
+    border: 1px solid white;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
